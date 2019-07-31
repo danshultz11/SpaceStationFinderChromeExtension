@@ -12,7 +12,7 @@
 * Go to the Chrome Dev Dashboard: https://chrome.google.com/webstore/developer/dashboard
 * Go into Chrome-Extension LOCAL project
 * move current SpaceStationFinderChromeExtension*.zip to Old Zips folder
-* Zip everthing but the git files, and any folders, and this readme file into a new `SpaceStationFinderChromeExtension[Whatever].zip` file
+* Zip everthing but the git files, and this readme file into a new `SpaceStationFinderChromeExtension[Whatever].zip` file
 * (Make sure to increment the version in the manifest)
 * Go back to the Chrome Dev Dashboard
 * SpaceStationFinderChromeExtension - select Edit
