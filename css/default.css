@@ -1,0 +1,192 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    font-family: Verdana;
+    color: #ddd;
+    background-color: #002;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    margin: 0 0 0 0;
+    background-color: #555;
+    color: #fff;
+}
+
+#lblLocationNotSet {
+    width: 220px;
+    margin: auto;
+    padding:10px 0;
+}
+
+input[type="submit"] {
+    background-color: #0A0;
+    width: 250px;
+    border: solid;
+    margin: 5px 30px;
+}
+
+#redWhiteMapBorder {
+    width: 100%;
+    height: 4px;
+    background-image: url("../images/redWhiteMapBorder.gif");
+}
+
+.centeredDivContainer {
+    text-align: center;
+    position: relative;
+}
+
+#enterLocation {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#directionBarStartDate {
+    color: #fff;
+    top: 2px;
+    font-size: .8em;
+}
+
+#startDate, #endDate {
+    color: #000;
+}
+
+#lblLocation {
+    color: #777;
+    font-size: .9em;
+}
+
+#txtAddress {
+    border-radius: 4px;
+    background-color: #fffbec;
+    display: block;
+    margin: auto;
+    width: 195px;
+    height: 24px;
+    text-align: center;
+}
+
+
+.message {
+    color: #aac;
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#lblZip {
+    font-size: .9em;
+}
+
+#setLocation {
+    text-align: center;
+    position: absolute;
+    left:10px;
+    top:70px;
+    display: none;
+}
+
+#lblNewLocation {
+    font-size: .9em;
+    position: relative;
+    top: 64px;
+}
+
+
+    #searchButton:hover {
+        cursor: pointer;
+    }
+    
+#pageGrid {
+    position: relative;
+    background-image: url('../images/EarthWithGlow360.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 100%;
+}
+
+/********Different bottom trees image based on width*********/
+@media screen and (min-width:480px) and (max-width:767px) {
+    #pageGrid {
+        position: relative;
+        background-image: url('../images/EarthWithGlow480.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #pageGrid {
+        position: relative;
+        background-image: url('../images/EarthWithGlow768.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 100%;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    #pageGrid {
+        position: relative;
+        background-image: url('../images/EarthWithGlow1024.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        height: 100%;
+    }
+
+}
+
+/********End Different bottom trees image based on width*********/
+
+.button {
+    font-size: 1.6em;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: baseline;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    border:0;
+    color: #FFFFFF;
+}
+
+    .button:hover, active {
+        background:#449;
+    }
+
+.green {
+    background: #64991E;
+}
+
+#enableLocation {
+     display:none;
+     position:absolute;
+     bottom:10px;
+     left:10px;
+     background:#ff0;
+     color:#000;
+     width:260px;
+     padding:15px 5px;
+     text-align:center;
+}
+

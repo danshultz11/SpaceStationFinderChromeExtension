@@ -1,0 +1,45 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+      <link href="css/index.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/default.css" />
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+      <script src="scripts/default.js"></script>
+  </head>
+
+  <body>
+      <div id="outerContainer" style="height: 100%;">
+          <div id="pageGrid">
+              <div id="redWhiteMapBorder">
+              </div>
+              <div class="centeredDivContainer">
+
+              </div>
+              <div id="enterLocation">
+                  <form id="ssf" onsubmit="event.returnValue=false">
+                      <div id="lblLocationNotSet" class="message">
+                          Where do you want to view the Space Station from?
+                      </div>
+                      <div id="lblZip">
+                         Zip Code or Nearest City
+                      </div>
+                      <input id="txtAddress" type="text" placeholder="Enter a city or zipcode"/>
+                      <input type="submit" id="btnGetLatLon" class="button green" value="SHOW UPCOMING VIEWS" accesskey="s" /><br />
+                  </form>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
