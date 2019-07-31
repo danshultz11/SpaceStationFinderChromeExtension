@@ -1,14 +1,14 @@
 # SpaceStationFinderChromeExtension
 ## Chrome Extension for SpaceStationFinder
 
-###Testing Locally:
+### Testing Locally:
 * Open Chrome - go to `chrome://extensions/`
 * Turn Developer mode ON
 * Click "Load unpacked"
 * Navigate to the local Chrome Extension folder (`C:\[path to]\SpaceStationFinderChromeExtension`)
 * Select Folder
 
-###Deployment:
+### Deployment:
 * Go to the Chrome Dev Dashboard: https://chrome.google.com/webstore/developer/dashboard
 * Go into Chrome-Extension LOCAL project
 * move current SpaceStationFinderChromeExtension*.zip to Old Zips folder
